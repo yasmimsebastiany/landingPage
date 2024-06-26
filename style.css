@@ -1,0 +1,105 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 70px;
+    line-height: 70px;
+    text-align: right; 
+}
+
+#logoNav {
+    float: left;
+    margin-left: 10px;
+}
+
+#logoNav a {
+    font-size: 20px; 
+    color: #B197FC;
+}
+
+li {
+    display: inline-block; 
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li svg {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #333; /* Altere para a cor desejada */
+}
+
+#fundo {
+    background-image: url('fundo.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#sobre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 800px; 
+    /* From https://css.glass */
+    background: rgba(17, 17, 17, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 1px solid rgba(17, 17, 17, 0.6);
+    color: white;
+}
+
+#valores {
+    text-align: center;
+    width: 80%; /* Ajuste conforme necessário */
+    margin: auto;
+}
+
+#valores table {
+    max-width: 800px; 
+    border-collapse: collapse; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#valores th {
+    background-color: #B197FC; /* Cor de fundo dos cabeçalhos */
+    color: white; /* Cor do texto dos cabeçalhos */
+    padding: 10px; /* Espaçamento interno dos cabeçalhos */
+}
+
+#valores td {
+    border: 1px solid #ddd; /* Bordas das células */
+    padding: 10px; /* Espaçamento interno das células */
+}
+
+#valores tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo das linhas pares */
+}
+
+#valores tr:nth-child(odd) {
+    background-color: #cac7c7; /* Cor de fundo das linhas pares */
+}
